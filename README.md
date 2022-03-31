@@ -1,6 +1,6 @@
 # esx-legacy-recipe
 
-**A full featured and highly configurable yet lightweight ESX Legacy base.**
+**Basic TxAdmin deployment recipe for ESX Legacy.**
 
 This recipe runs inside [**txAdmin**](https://github.com/tabarra/txAdmin).  
 

@@ -97,18 +97,6 @@ tasks:
     src: ./tmp/resources-1.2/gcphone
     dest: ./resources/gcphone
 
-  ## vstancer stuff
-  - action: download_file
-    url: https://github.com/carmineos/fivem-vstancer/releases/download/v1.4/vstancer-v1.4.0.zip
-    path: ./tmp/vstancer.zip
-  - action: unzip
-    src: ./tmp/vstancer.zip
-    dest: ./tmp
-  - action: move_path
-    src: ./tmp/vstancer
-    dest: ./resources/vstancer
-
-
   ## Downloading & Patching configs: cosmo hud
   - action: download_github
     src: https://github.com/nojdh/cosmo_hud
